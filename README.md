@@ -11,3 +11,7 @@ Weathercode --> 비오는지 여부 알 수 있음
                 3XX: Drizzle
                 5XX: Rain
                 6XX: Snow
+String[] nowTemp=new String[3];   *italic* // 온도 
+String[] weatherId = new String[3];   *italic* // Weathercode
+String[] weatherMain=new String[3];   *italic* // 날씨 설명(간략히)
+String[] weatherDescription = new String[3];   *italic* // 날씨 설명(상세히)
